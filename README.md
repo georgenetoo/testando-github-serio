@@ -1,6 +1,8 @@
-# testando-github-serio
-oioioioioi
-a = int(input("digite o primeiro valor: "))
-b = int(input("digite o segundo valor: "))
-soma = a + b
-print("soma")
+def sequencia(n):
+	a = 0
+	b = 1
+	while a < n:
+		print(a, end=" ")
+		a, b = b, a+b
+	print()
+sequencia(22)
